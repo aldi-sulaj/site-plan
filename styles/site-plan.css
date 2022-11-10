@@ -48,6 +48,12 @@ h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
+
+.img_1 {
+  display: flex;
+  justify-content: space-around;
+}
+
 h2 {
   text-align: center;
 }
