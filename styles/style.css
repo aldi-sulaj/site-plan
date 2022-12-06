@@ -446,6 +446,24 @@ footer .social img {
   padding-left: 25px;
 }
 
+.all-img {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  margin-left: 100px;
+  padding-left: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .es {
   color: #56c596;
   margin-top: 5px;
@@ -484,12 +502,19 @@ footer .social img {
   padding-left: 25px;
 }
 
-.cn-main {
+.cn-main1 {
+  position: relative;
   border: 1px solid;
   margin-top: 50px;
-  margin-left: 200px;
-  width: 900px;
+  margin-left: 300px;
+  width: 500px;
   padding-left: 20px;
+}
+
+.cn-main2 {
+  margin-top: 10px;
+  width: 500px;
+  padding-bottom: 5px;
 }
 
 .cn-title1 {
@@ -500,26 +525,55 @@ footer .social img {
 .par-cn1 {
   margin-top: 5px;
   padding-top: 5px;
-  padding-left: 20px;
+  padding-left: 13px;
+  color: #fff;
 }
 
-.cn-name {
-  display: flex;
-  justify-content: space-around;
+.cn-srch1 {
+  font-family: "Abyssinica SIL", serif;
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border-bottom: 1px solid #56c596;
+  border-top: 1px solid #56c596;
+  border-right: 1px solid #56c596;
+  border-left: 1px solid #56c596;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-.cn-srch {
-  font-family: "Times New Roman";
+.cn-srch2 {
+  font-family: "Abyssinica SIL", serif;
   width: 200px;
   height: 40px;
   background: transparent;
   border: 1px solid #56c596;
   margin-top: 13px;
   color: #fff;
-  border-right: none;
   font-size: 16px;
-  float: left;
-  padding: 10px;
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
+  border-radius: 5px;
+}
+
+.cn-srch3 {
+  font-family: "Abyssinica SIL", serif;
+  width: 410px;
+  height: 150px;
+  border: 1px solid;
+  margin-top: 5px;
+}
+
+.cn-msg {
+  color: #fff;
+}
+
+.sp {
+  color: red;
+}
+
+.cn-info {
+  display: flex;
+  justify-content: space-around;
 }
