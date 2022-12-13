@@ -285,6 +285,13 @@ ul li a:hover {
   background-color: rgba(0, 38, 255, 0.367);
 }
 
+.col-sm:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #56c596;
+}
+
 .our-courses {
   text-align: center;
   padding-top: 40px;
@@ -452,10 +459,17 @@ footer .social img {
 
 .column {
   float: left;
-  margin-left: 100px;
+  margin-left: 170px;
   padding-left: 20px;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
+}
+
+.column:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #56c596;
 }
 
 .row::after {
